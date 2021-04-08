@@ -402,9 +402,11 @@ body{
   position: absolute;
   display: -ms-grid;
   display: grid;
-  background-size: 10% 10%;
-  background-image: linear-gradient(to right, rgba(92, 124, 250, 0.2) 1px, transparent 1px), linear-gradient(to bottom, rgba(92, 124, 250, 0.2) 1px, transparent 1px);
+  background-size:144px 81px;
   mix-blend-mode: normal;
+  background-image: 
+       linear-gradient(to top, (#222225) 1px, transparent 1px), 
+       linear-gradient(to left, (#222225) 1px, transparent 1px);  
 }
    
 
