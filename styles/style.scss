@@ -396,19 +396,15 @@ body{
 
 .page-back{
     max-width: 1440px;
-    width: 100%;
-    height: 810px; 
-    
-	
-    pointer-events: none;
-    position: absolute;
-    display: grid;
-    background-size: 10% 10%;
-    background-image:
-      linear-gradient(to right, rgba(92, 124, 250,.2) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(92, 124, 250,.2) 1px, transparent 1px);
-      mix-blend-mode: normal
-    
+  width: 100%;
+  height: 810px;
+  pointer-events: none;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  background-size: 10% 10%;
+  background-image: linear-gradient(to right, rgba(92, 124, 250, 0.2) 1px, transparent 1px), linear-gradient(to bottom, rgba(92, 124, 250, 0.2) 1px, transparent 1px);
+  mix-blend-mode: normal;
 }
    
 
